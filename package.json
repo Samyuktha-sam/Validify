@@ -1,0 +1,22 @@
+{
+  "name": "validify",
+  "version": "1.0.0",
+  "description": "A lightweight, flexible, and extensible JavaScript/TypeScript validation library for client-side form validation.",
+  "main": "src/index.ts",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samyuktha-sam/Validify.git"
+  },
+  "author": "Samyuktha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samyuktha-sam/Validify/issues"
+  },
+  "homepage": "https://github.com/Samyuktha-sam/Validify#readme"
+}
