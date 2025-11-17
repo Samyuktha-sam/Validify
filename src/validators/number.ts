@@ -8,7 +8,7 @@ export default class NumberValidatorContext extends ValidifyContext {
             func: (value: any) => typeof value === "number",
         },
     ];
-
+// Add number-specific validation methods here
     max(max: number): NumberValidatorContext {
         this.addRule({
             name: "max",
