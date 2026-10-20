@@ -6,7 +6,7 @@ import { IValidifyContext } from "./ValidifyContext";
 function Validify(): IValidifyContextBuilder {
     return new ValidifyBuilder();
 }
-
+// Interface defining the Validify context builder methods
 export interface IValidifyContextBuilder {
     string(): StringValidatorContext;
     number(): NumberValidatorContext;
